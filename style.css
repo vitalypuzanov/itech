@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Helvetica';
-    src: url('HelveticaNeueCyr-Roman.woff') format('woff2');
+    src: url(fonts/HelveticaNeueCyr-Roman.woff) format('woff2');
     font-style: normal;
     font-weight: normal;
     font-display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Helvetica-tin';
-    src: url('HelveticaNeueCyr-Light.woff') format('woff2');
+    src: url(fonts/HelveticaNeueCyr-Light.woff) format('woff2');
     font-style: normal;
     font-weight: normal;
     font-display: swap;
@@ -106,7 +106,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(header-img.png);
+    background-image: url(img/header-img.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -366,7 +366,7 @@ button img {
 
 .blog__items {
     background-color: linear-gradient(0deg, rgba(0, 25, 51, 0.6), rgba(0, 25, 51, 0.6));
-    background-image: url(blog.jfif);
+    background-image: url(img/blog.jfif);
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -550,7 +550,7 @@ textarea.contact-form-text {
 }
 
 .card__image {
-    background: linear-gradient(0deg, rgba(0, 25, 51, 0.6), rgba(0, 25, 51, 0.6)), url('blog.jfif');
+    background: linear-gradient(0deg, rgba(0, 25, 51, 0.6), rgba(0, 25, 51, 0.6)), url('img/blog.jfif');
     background-size: cover;
     height: 360px;
     width: 392px;
